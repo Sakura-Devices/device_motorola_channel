@@ -1,3 +1,6 @@
+# APN
+product/etc/apns-conf.xml
+
 # Audio - Prebuilt
 vendor/lib/libadm.so
 vendor/lib/liblog_vendor.so
