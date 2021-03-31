@@ -25,6 +25,9 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 # Inherit from channel device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# ArrowOS Maintainer
+DEVICE_MAINTAINER := Deivid Ignacio
+
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := channel
 PRODUCT_MANUFACTURER := motorola
