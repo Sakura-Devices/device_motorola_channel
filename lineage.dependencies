@@ -1,19 +1,27 @@
 [
   {
     "repository": "device_motorola_channel",
-    "target_path": "device/motorola/channel"
+    "target_path": "device/motorola/channel",
+    "remote": "github",
+    "branch": "11"
   },
   {
     "repository": "device_motorola_sdm632-common",
-    "target_path": "device/motorola/sdm632-common"
+    "target_path": "device/motorola/sdm632-common",
+    "remote": "github",
+    "branch": "11"
   },
   {
     "repository": "kernel_motorola_sdm632",
-    "target_path": "kernel/motorola/sdm632"
+    "target_path": "kernel/motorola/sdm632",
+    "remote": "github",
+    "branch": "11"
   },
   {
     "repository": "vendor_motorola",
-    "target_path": "vendor/motorola"
+    "target_path": "vendor/motorola",
+    "remote": "github",
+    "branch": "11"
   },
   {
     "repository": "StyxProject/hardware_motorola",

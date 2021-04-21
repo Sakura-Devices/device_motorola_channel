@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/styx_channel.mk
+    $(LOCAL_DIR)/lineage_channel.mk
 
 COMMON_LUNCH_CHOICES := \
-    styx_channel-eng \
-    styx_channel-user \
-    styx_channel-userdebug
+    lineage_channel-eng \
+    lineage_channel-user \
+    lineage_channel-userdebug

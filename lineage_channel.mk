@@ -19,8 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common StyxOS stuff
-$(call inherit-product, vendor/styx/config/common.mk)
+# Inherit some common Lineage stuff
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from channel device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -28,13 +28,15 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := channel
 PRODUCT_MANUFACTURER := motorola
-PRODUCT_NAME := styx_channel
+PRODUCT_NAME := lineage_channel
 PRODUCT_MODEL := moto g(7) play
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=channel
 
-# StyxOS
-STYX_BUILD_VARIANT := OFFICIAL
-PRODUCT_PRODUCT_PROPERTIES += \
-    org.styxproject.maintainer=Amy Grace
+# Sakura flags
+SAKURA_OFFICIAL := true
+SAKURA_MAINTAINER := Amy Grace
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_SCREEN_HEIGHT := 720
+TARGET_SCREEN_WIDTH := 1512
