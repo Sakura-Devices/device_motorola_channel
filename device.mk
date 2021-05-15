@@ -28,6 +28,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
@@ -60,14 +64,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Moto Camera 2
 PRODUCT_PACKAGES += \
     MotCamera2
-
-# Moto TimeWeather
-PRODUCT_PACKAGES += \
-    TimeWeather
-
-# Moto Live Wallpaper
-PRODUCT_PACKAGES += \
-    MotoLiveWallpaper3
 
 # Fingerprint
 PRODUCT_COPY_FILES += \
